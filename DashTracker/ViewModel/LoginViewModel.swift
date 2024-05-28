@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct LoginViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class LoginViewmodel: ObservableObject{
+    
+    @Published var phNo = ""
+    @Published var code = ""
+    
+    
+    
+    
+    // getting coutnry Phone Code...
+    
+    func getCountryCode() -> String {
+        let regionIdentifier = Locale.current.region?.identifier ?? ""
+        return countries[regionIdentifier] ?? ""
     }
-}
-
-#Preview {
-    LoginViewModel()
+    
 }

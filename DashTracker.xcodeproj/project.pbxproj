@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44D3D9452B9F027100AEE015 /* DashTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D9442B9F027100AEE015 /* DashTrackerApp.swift */; };
+		44AA2C7B2BA1CF0A00666153 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA2C7A2BA1CF0A00666153 /* Verification.swift */; };
+		44AA2C7D2BA1E1EC00666153 /* SendHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA2C7C2BA1E1EC00666153 /* SendHttp.swift */; };
 		44D3D9472B9F027100AEE015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D9462B9F027100AEE015 /* ContentView.swift */; };
 		44D3D9492B9F027200AEE015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D3D9482B9F027200AEE015 /* Assets.xcassets */; };
 		44D3D94C2B9F027200AEE015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D3D94B2B9F027200AEE015 /* Preview Assets.xcassets */; };
+		44D3D9532B9F02A600AEE015 /* Porche911Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 44D3D9522B9F02A600AEE015 /* Porche911Video.mp4 */; };
+		44D3D9552B9F02E500AEE015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D9542B9F02E500AEE015 /* ViewController.swift */; };
+		44D3D9572B9F05FD00AEE015 /* DashTrackerpp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D9562B9F05FD00AEE015 /* DashTrackerpp.swift */; };
+		44D3D9602B9F21EE00AEE015 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D95F2B9F21EE00AEE015 /* LoginView.swift */; };
+		44D3D9642BA1995C00AEE015 /* Life360TestLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D3D9632BA1995C00AEE015 /* Life360TestLogo.png */; };
+		44D3D9682BA19BEB00AEE015 /* Life360.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D3D9672BA19BEB00AEE015 /* Life360.png */; };
+		44D3D96C2BA19EC800AEE015 /* Life360AppIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 44D3D96B2BA19EC800AEE015 /* Life360AppIcon.jpeg */; };
+		44D3D9712BA1A10C00AEE015 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D9702BA1A10C00AEE015 /* LoginViewModel.swift */; };
+		44D3D9742BA1A17C00AEE015 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D3D9732BA1A17C00AEE015 /* Countries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44AA2C7A2BA1CF0A00666153 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		44AA2C7C2BA1E1EC00666153 /* SendHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHttp.swift; sourceTree = "<group>"; };
 		44D3D9412B9F027100AEE015 /* DashTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D3D9442B9F027100AEE015 /* DashTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashTrackerApp.swift; sourceTree = "<group>"; };
 		44D3D9462B9F027100AEE015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44D3D9482B9F027200AEE015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44D3D94B2B9F027200AEE015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44D3D9522B9F02A600AEE015 /* Porche911Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Porche911Video.mp4; sourceTree = "<group>"; };
+		44D3D9542B9F02E500AEE015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44D3D9562B9F05FD00AEE015 /* DashTrackerpp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashTrackerpp.swift; sourceTree = "<group>"; };
+		44D3D95F2B9F21EE00AEE015 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		44D3D9632BA1995C00AEE015 /* Life360TestLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Life360TestLogo.png; sourceTree = "<group>"; };
+		44D3D9672BA19BEB00AEE015 /* Life360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Life360.png; sourceTree = "<group>"; };
+		44D3D96B2BA19EC800AEE015 /* Life360AppIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Life360AppIcon.jpeg; sourceTree = "<group>"; };
+		44D3D9702BA1A10C00AEE015 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		44D3D9732BA1A17C00AEE015 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,13 @@
 		44D3D9432B9F027100AEE015 /* DashTracker */ = {
 			isa = PBXGroup;
 			children = (
-				44D3D9442B9F027100AEE015 /* DashTrackerApp.swift */,
+				44D3D9722BA1A16600AEE015 /* Model */,
+				44D3D96D2BA1A0D600AEE015 /* ViewModel */,
+				44D3D95E2B9F21DE00AEE015 /* Views */,
 				44D3D9462B9F027100AEE015 /* ContentView.swift */,
+				44D3D9562B9F05FD00AEE015 /* DashTrackerpp.swift */,
+				44D3D9542B9F02E500AEE015 /* ViewController.swift */,
+				44D3D9582B9F07E300AEE015 /* Media */,
 				44D3D9482B9F027200AEE015 /* Assets.xcassets */,
 				44D3D94A2B9F027200AEE015 /* Preview Content */,
 			);
@@ -65,6 +90,43 @@
 				44D3D94B2B9F027200AEE015 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44D3D9582B9F07E300AEE015 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				44D3D96B2BA19EC800AEE015 /* Life360AppIcon.jpeg */,
+				44D3D9672BA19BEB00AEE015 /* Life360.png */,
+				44D3D9632BA1995C00AEE015 /* Life360TestLogo.png */,
+				44D3D9522B9F02A600AEE015 /* Porche911Video.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		44D3D95E2B9F21DE00AEE015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44D3D95F2B9F21EE00AEE015 /* LoginView.swift */,
+				44AA2C7A2BA1CF0A00666153 /* Verification.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44D3D96D2BA1A0D600AEE015 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44D3D9702BA1A10C00AEE015 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44D3D9722BA1A16600AEE015 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44D3D9732BA1A17C00AEE015 /* Countries.swift */,
+				44AA2C7C2BA1E1EC00666153 /* SendHttp.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +187,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D3D9682BA19BEB00AEE015 /* Life360.png in Resources */,
+				44D3D9642BA1995C00AEE015 /* Life360TestLogo.png in Resources */,
 				44D3D94C2B9F027200AEE015 /* Preview Assets.xcassets in Resources */,
+				44D3D9532B9F02A600AEE015 /* Porche911Video.mp4 in Resources */,
+				44D3D96C2BA19EC800AEE015 /* Life360AppIcon.jpeg in Resources */,
 				44D3D9492B9F027200AEE015 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D3D9552B9F02E500AEE015 /* ViewController.swift in Sources */,
 				44D3D9472B9F027100AEE015 /* ContentView.swift in Sources */,
-				44D3D9452B9F027100AEE015 /* DashTrackerApp.swift in Sources */,
+				44D3D9602B9F21EE00AEE015 /* LoginView.swift in Sources */,
+				44AA2C7D2BA1E1EC00666153 /* SendHttp.swift in Sources */,
+				44D3D9712BA1A10C00AEE015 /* LoginViewModel.swift in Sources */,
+				44AA2C7B2BA1CF0A00666153 /* Verification.swift in Sources */,
+				44D3D9742BA1A17C00AEE015 /* Countries.swift in Sources */,
+				44D3D9572B9F05FD00AEE015 /* DashTrackerpp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
